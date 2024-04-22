@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link href="img/icons/favicon.png" type="image/x-icon" rel="shrotcut icon">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header_container">
+        <div class="logo_container">
+            <div class="logo_icon"></div>
+            <div class="app_name">Forecast</div>
+        </div>
+        <div class="input_container">
+            <input class="input_city" placeholder="Enter a city">
+            <div class="search_btn"></div>
+        </div>
+        <div class="header_current_location_container">
+            <div class="current_location_icon_container"><img class="current_location_icon" src="img/icons/current_location_icon.png"></div>
+            <div class="current_location_text">Current location</div>
+        </div>
+    </div>
+    <div class="suggestions" style="display: none;"></div>
+    <div class="weather_container">
+        <div class="current_weather_container">
+            <div class="date"></div>
+            <div class="city_name"></div>
+            <div class="degrees_container">
+                <div class="weather_icon_container"><img class="weather_icon" src=""></div>
+                <div class="degrees_outside"></div>
+            </div>
+            <div class="weather_description"></div>
+            <div class="weather_feels_like"></div>
+        </div>
+        <div class="future_weather_container">
+            <div class='future_weather_day_one'>
+                <div class="weather_day_one_date"></div>
+                <div class="weather_day_one_icon_container"><img class="weather_day_one_icon" src=""></div>
+                <div class="weather_day_one_mintemp"></div>
+                <div class="weather_day_one_maxtemp"></div>
+            </div>
+            <div class='future_weather_day_two'>
+                <div class="weather_day_two_date"></div>
+                <div class="weather_day_two_icon_container"><img class="weather_day_two_icon" src=""></div>
+                <div class="weather_day_two_mintemp"></div>
+                <div class="weather_day_two_maxtemp"></div>
+            </div>
+            <div class='future_weather_day_three'>
+                <div class="weather_day_three_date"></div>
+                <div class="weather_day_three_icon_container"><img class="weather_day_three_icon" src=""></div>
+                <div class="weather_day_three_mintemp"></div>
+                <div class="weather_day_three_maxtemp"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_container">
+        <div class="current_location_icon_container"><img class="current_location_icon" src="img/icons/current_location_icon.png"></img></div>
+        <div class="current_location_text">Current location</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
