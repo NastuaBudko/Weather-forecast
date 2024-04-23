@@ -21,11 +21,11 @@
 }
 
 body, html {
-    background-size: cover; /* Изменено с contain на cover */
+    background-size: cover; 
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    background-position: center center; /* Чтобы убедиться, что фон всегда по центру */
+    background-position: center center; 
     cursor: default;
     overflow-y: scroll;
 }
