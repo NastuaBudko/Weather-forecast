@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const rainyCondition = ['mist', 'patchy rain possible', 'patchy rain nearby', 'patchy light drizzle', 'light drizzle', 'freezing drizzle', 'heavy freezing drizzle',
     'patchy light rain', 'light rain', 'moderate rain at times', 'moderate rain', 'heavy rain at times', 'heavy rain', 'light freezing rain',
     'moderate or heavy freezing rain', 'light rain shower', 'moderate or heavy rain shower', 'torrential rain shower', 'moderate or heavy rain with thunder',
-    'patchy light rain with thunder'];
+    'patchy light rain with thunder', 'patchy light rain in area with thunder', 'moderate or heavy rain in area with thunder'];
 const cloudyCondition = ['partly cloudy', 'cloudy', 'overcast', 'thundery outbreaks possible', 'fog', 'freezing fog'];
 const sunnyCondition = ['sunny', 'clear'];
 const snowCondition = ['patchy sleet possible', 'patchy snow possible', 'patchy freezing drizzle possible', 'blowing snow', 'blizzard',
