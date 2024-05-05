@@ -113,7 +113,7 @@ const snowCondition = ['patchy sleet possible', 'patchy snow possible', 'patchy 
         dayTwoMaxTemp.innerHTML = `max: ${param.forecast.forecastday[1].day.maxtemp_c}°`;
 
         thirdDayDate = param.forecast.forecastday[2].date;
-        const [thirdDateYear, thirdDateMonth, thirdDateDay] = secondDayDate.split("-");
+        const [thirdDateYear, thirdDateMonth, thirdDateDay] = thirdDayDate.split("-");
         const formattedThirdtDate = `${thirdDateMonth}.${thirdDateDay}`;
         dayThreeDate.innerHTML = formattedThirdtDate;
         dayThreeIcon.src = param.forecast.forecastday[2].day.condition.icon;
